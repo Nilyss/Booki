@@ -796,7 +796,7 @@ footer {
         align-items: center;
     }
     
-/*logo mobile part */
+/*logo phone part */
     
     .logo {        
         justify-content: center;
@@ -810,7 +810,7 @@ footer {
     }
 
 
-/* Nav mobile part */
+/* Nav phone part */
 
 
     .menus {
@@ -845,7 +845,7 @@ footer {
         border-bottom: 4px solid #0065FC;
     }
     
-/*search Bar mobile part */
+/*search Bar phone part */
 
     .search {
         margin-left: 5%;
@@ -891,6 +891,55 @@ footer {
         width: 30px;
     }
     
+    .fa-money-bill-wave {
+        transition: transform 200ms;    
+    }
+
+    .btn-1:hover .fa-money-bill-wave {    
+        transform: none;
+    }
+
+    .btn-1:focus .fa-money-bill-wave {    
+        transform: scale(1.5) rotate(360deg);
+    }
+
+    .fa-child-reaching {
+        transition: transform 200ms ease-in-out;
+    }
+    
+    .btn-2:hover .fa-child-reaching {
+        transform: none;
+    }
+
+    .btn-2:focus .fa-child-reaching {
+        transform: translateY(-10px) scale(1.5);
+    }
+
+    .fa-heart {
+        transition: transform 200ms;
+    }
+    
+    .btn-3:hover .fa-heart {    
+        transform: none;
+        color: #0065FC;
+    }
+
+    .btn-3:focus .fa-heart {    
+        transform: scale(1.5);
+        color: #e755ec;
+    }
+
+    .fa-dog {
+        transition: transform 200ms;
+    }
+    
+    .btn-4:hover .fa-dog {
+        transform: none;
+    }
+
+    .btn-4:focus .fa-dog {
+        transform: translateX(10px) scale(1.5);
+    }
 /* accommodation phone part */    
 
     #accommodation {
@@ -922,6 +971,10 @@ footer {
         margin-top: 8%;
     }
 
+    .accommodationCard1:hover, .accommodationCard2:hover, .accommodationCard3:hover, .accommodationCard4:hover, .accommodationCard5:hover, .accommodationCard6:hover {
+        transform: none;
+    }
+
     /* Popular phone part */
 
 
@@ -945,6 +998,10 @@ footer {
 
     .popularCard2__img {
         width: 195px;
+    }
+
+    .popularCard1:hover, .popularCard2:hover, .popularCard3:hover {
+        transform: none;
     }
 
     /* Activity phone part */
@@ -988,7 +1045,11 @@ footer {
         height: 200px;        
     }
 
-    /* Footer mobil part */
+    .activity__largeCard1:hover, .activity__largeCard2:hover, .activity__smallCard1__A:hover, .activity__smallCard1__B:hover, .activity__smallCard2__A:hover, .activity__smallCard2__B:hover {
+        transform: none;
+    }
+
+    /* Footer phone part */
 
     .footer__allBlock {
         flex-flow: column;
